@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+      <div>
+        <label for="username" title="required">Username: <span>*</span></label>
+        <input id="username" type="text" name="username" aria-required="true" />
+      </div><br />
+      <div>
+        <label for="password" title="required">Password: <span>*</span></label>
+        <input id="password" type="password" name="password" aria-required="true" />
+      </div><br />
+      <p><em>Fields followed by the <span>*</span> are required.</em></p>
+
+      <input type="submit" value="Login"/>
+    </form>
+  </body>
+</html>
